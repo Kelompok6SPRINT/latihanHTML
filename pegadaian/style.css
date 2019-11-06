@@ -1,0 +1,17 @@
+h1{
+    color:#4c6c79;
+    font-size: 32px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+
+p{
+    display: none;
+}
+div.display:hover p{
+    display: block;
+}
+::selection{
+    background-color: #4c6c79;
+    color: white;
+}
